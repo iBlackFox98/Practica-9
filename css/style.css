@@ -1,0 +1,285 @@
+body{
+	margin:0;
+
+}
+
+.main-header{
+	background-color:#A81B1B;
+	width: 100%;
+	display: flex;
+
+
+
+}
+
+.logo {
+	width: 10%
+}
+
+
+.logo img{
+	width: 70%;
+	padding-top: 10px;
+	padding-left: 10px;
+	background-color:#A81B1B;
+}
+
+
+.search-form{
+	width: 50%;
+	position: relative;
+
+}
+
+.search-form input[type="text"]{
+	margin:0 auto;
+	width: 100%;
+	margin-top: 25px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 15px;
+
+}
+
+.btn-search{
+	position: absolute;
+	color: #707070;
+	margin-top: -4%;
+	margin-left: 96%; 
+}
+
+.main-menu{
+	text-align: center;
+	margin-top: 20px;
+}
+
+.main-menu ul {
+	list-style: none;
+
+}
+
+.main-menu ul li {
+	display: inline-block;
+	margin: 5px 10px;
+
+}
+
+
+.main-menu ul li a {
+	font-weight: 700;
+	text-decoration: none;
+	color: white;
+	padding-left: 5px;
+	padding-right: 5px;
+	transition: all 0.2s ease-in;
+}
+
+.slider{
+	width: 100%;
+
+	display: flex;
+	position: relative;
+}
+
+.Art-princ{
+	order: 2;
+	margin: 0 auto;
+	height: 309px;
+}
+
+
+.slider:hover .flecha-izq{
+	display: block;
+}
+
+.slider:hover .flecha-der{
+	display: block;
+}
+
+.flecha-izq{
+	order:1;
+	width: 9%;
+	position: absolute;
+	left: 9%;
+	top: 27%;
+	display: none;
+
+}
+
+.flecha-der{
+	order: 3;
+	width: 9%;
+	position: absolute;
+	right:9%;
+	top: 27%;
+	display: none;
+}
+
+.ofertas .container{
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+
+.card{
+	width: 25%;
+	border: 1px solid #D6D2D2;
+
+}
+
+.dia img{
+	width: 50%;
+	margin-left: 25%;
+	border-bottom: 1px solid #D6D2D2;
+}
+
+.tec img{
+	width: 74%;
+	margin-left: 13%;
+	border-bottom: 1px solid #D6D2D2;
+}
+
+.card-body{
+	text-align: center;
+	font-size: 16px;
+	color: #707070;
+	font-family: 'Montserrat', sans-serif;
+	text-shadow: 4px 4px 4px #aaa;
+
+}
+
+.contact-container{
+
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	margin:0 auto;
+}
+
+.contact-form{
+	width: 80%;
+	margin: 0 auto;
+	margin-top: 20px;
+	height: 30px;
+}
+
+.textar{
+	height: 50%;
+}
+
+.contact-form input[type="text"]{
+	border:none;
+}
+
+.btn-contact{
+	width: 10%;
+	padding-top: 20px;
+	padding-left: 20px;
+	background-color: #1DF24F;
+	border-radius: 30px;
+	margin: 0 auto;
+	margin-top: 10px;
+	margin-right: 100px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 16px;
+}
+
+.contact-map{
+	width: 100%;
+	margin: 0 auto;
+}
+
+.contact-map h3{
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	margin-bottom: -10px;
+}
+
+.img-contact{
+
+	margin: 0 auto;
+	display: block;
+	width: 40%;
+
+}
+
+
+.container-prod-prin{
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+}
+
+.container-filtros{
+	width: 30%;
+}
+
+.filtros{
+	margin-top: 30px;
+
+}
+
+.filtros select{
+	width: 60%;
+	margin-left: 30px;
+}
+
+
+
+.filt-avanz h3{
+	font-size: 25px;
+}
+
+.filt-avanz ul{
+	list-style: none;	
+}
+
+.filt-avanz li{
+	font-size: 15px;
+	padding-bottom: 5px;
+}
+
+.filt-avanz li:hover{
+	color:#1F16FF;
+}
+
+
+.container-marcas{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.marca:hover{
+
+	border: 1px solid #D6D2D2;
+
+}
+
+.prod-princ-container{
+	display: flex;
+	flex-direction: column;
+}
+
+.card-prod{
+	display: flex;
+	flex-direction: row;
+	margin-bottom:20px;
+}
+
+.img-card img{
+	width: 65%;
+}
+
+.img-card img:hover{
+	padding-right: 10px;
+	border-right: 1px solid #D6D2D2;
+}
+.card-prod:hover{
+	border: 1px solid #D6D2D2;
+
+}
